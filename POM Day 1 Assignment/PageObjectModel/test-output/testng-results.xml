@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-27T15:31:49 IST" name="LeafTap Regression UI Test" finished-at="2022-11-27T15:32:23 IST" duration-ms="34390">
+    <groups>
+    </groups>
+    <test started-at="2022-11-27T15:31:49 IST" name="Leads-Chrome" finished-at="2022-11-27T15:32:23 IST" duration-ms="34390">
+      <class name="com.leaftap.leads.ui.cases.MergeLeadTest">
+        <test-method is-config="true" signature="setData()[pri:0, instance:com.leaftap.leads.ui.cases.MergeLeadTest@3f4faf53]" started-at="2022-11-27T15:31:49 IST" name="setData" finished-at="2022-11-27T15:31:49 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="driverConfig(java.lang.String,java.lang.String)[pri:0, instance:com.leaftap.leads.ui.cases.MergeLeadTest@3f4faf53]" started-at="2022-11-27T15:31:50 IST" name="driverConfig" finished-at="2022-11-27T15:31:52 IST" duration-ms="2524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="mergeLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.leaftap.leads.ui.cases.MergeLeadTest@3f4faf53]" started-at="2022-11-27T15:31:52 IST" name="mergeLead" data-provider="testData" finished-at="2022-11-27T15:32:07 IST" duration-ms="14934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hari]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[r]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No records to display]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergeLead -->
+        <test-method is-config="true" signature="driveClose()[pri:0, instance:com.leaftap.leads.ui.cases.MergeLeadTest@3f4faf53]" started-at="2022-11-27T15:32:07 IST" name="driveClose" finished-at="2022-11-27T15:32:23 IST" duration-ms="16281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveClose -->
+      </class> <!-- com.leaftap.leads.ui.cases.MergeLeadTest -->
+    </test> <!-- Leads-Chrome -->
+  </suite> <!-- LeafTap Regression UI Test -->
+</testng-results>
